@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test 3</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap source-------------------------------------------------------------------------------------------------------->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--------------------------------------------------------------------------------------------------------------------------->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- navigation area -->
+	<div id="headerContainer">
+		<nav id="navBar">
+		 <ul>
+		 	<li><span class="nav-li">Home</span></li>
+		 	<li><span class="nav-li">Media</span></li>
+		 	<li><span class="nav-li">Events</span></li>
+		 	<li><span class="nav-li">About</span></li>
+		 	<li class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="nav-li" id="id-of-More">More</span></li>
+		 	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+	    	<a class="dropdown-item" target="_blank" href="#">Developers Note</a>
+	   		<a class="dropdown-item" href="#">Option 0</a>
+	   		<a class="dropdown-item" href="#">Option 1</a>
+	  </div>
+		 </ul>		
+		</nav>
+		<!-- End of Navigation area -->
+		<div id="tc-logo">
+			<img src="./source-files/tclogo-gold.png" alt="Logo of Thriving Cities" height="85px" width="50px">
+		</div>
+		<!-- Header Box-->
+		<div id="headerBox">
+			<h1 id="headerBox-h1">Welcom To <br>Thriving Cities</h1>
+		</div>
+		<!-- End of header box-->
+		<div id="imgHeader">
+		<!--Bootstrap Slide Picture-->
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<!-- This area is for the indicator below the images that looks like this "-"-->
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+				</ol>
+
+				 <div class="carousel-inner">
+				 	<div class="carousel-item active">
+				 		<img class="d-block w-100" src="./source-files/ferris wheel by picjumbo.jpg" style="object-fit:cover;" width="600px"  height="500px" alt="First slide"></div>
+
+				 	<div class="carousel-item">
+				 		<img class="d-block w-100" src="./source-files/Photo by Alex Mertz on Unsplash.jpg" style="object-fit:cover;" width="600px"  height="500px" alt="Second slide"></div>
+
+				 	<div class="carousel-item">
+				 		<img class="d-block w-100" src="./source-files/Photo by Hanny Naibaho on Unsplash.jpg" style="object-fit:cover;" width="600px"  height="500px" alt="Third slide"></div>
+				 	<div class="carousel-item">
+				 		<img class="d-block w-100" src="./source-files/Photo by Maxime Bhm on Unsplash.jpg" style="object-fit:cover;" width="600px"  height="500px" alt="Fourth slide"></div>
+
+				 	<div class="carousel-item">
+				 		<img class="d-block w-100" src="./source-files/Photo by Serkan Turk on Unsplash.jpg" style="object-fit:cover;" width="600px"  height="500px" alt="Fifth slide"></div>
+
+				 	<div class="carousel-item">
+				 		<img class="d-block w-100" src="./source-files/sound-engineers-audio-music-mix-pult-picjumbo-com.jpg" style="object-fit:cover;" width="600px"  height="500px" alt="Sixth slide"></div>
+				 </div>
+			</div>
+		</div>
+			<!-- End of Bootstrap Slide Picture-->
+
+			<!-- Bootstrap Controls for Slide Picture the "< & >" -->
+				 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				 	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				 	<span class="sr-only">Previous</span>
+				 </a>
+				 <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				 	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				 	<span class="sr-only">Next</span>
+				 </a>
+			</div>
+		<!-- End of Bootstrap Slide Controls-->
+	</div> <!-- End div of headerContainer-->
+	
+	<div class="divBar"></div> <!-- black bar-->
+	<br><div class="div-whitespace"> </div>
+
+	<!-- Event section where featured events will be putted-->
+	<section id="eventSection">
+		<div id="eventbox">
+		<nav>
+			<div class="nav nav-tabs" id="nav-tab" role="tablist">
+				<a class="nav-item nav-link active" id="nav-featured-tab" data-toggle="tab" href="#nav-featured" role="tab" aria-controls="nav-featured" aria-selected="true">Featured</a>
+
+				<a class="nav-item nav-link" id="nav-events-tab" data-toggle="tab" href="#nav-events" role="tab" aria-controls="nav-events" aria-selected="false">Events</a>
+
+				<a class="nav-item nav-link" id="nav-upcoming-tab" data-toggle="tab" href="#nav-upcoming" role="tab" aria-controls="nav-upcoming" aria-selected="false">Upcoming</a>
+				<form class="search-container" action="">
+				    <input type="text" placeholder="Search.." name="search">
+				    <button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</nav>
+		<div class="tab-content" id="nav-tabContent">
+		  <div class="tab-pane fade show active" id="nav-featured" role="tabpanel" aria-labelledby="nav-featured-tab">
+		  <!-- start -->
+
+		  <div class="card" style="width: 18rem;">
+		  	<img class="card-img-top" src="./source-files/one.jpg" alt="Card image cap" width="180" height="211">
+		  	<div class="card-body">
+		  		<h4>Title:</h4>
+		  		<p>Summary of event details</p>
+		  		<span class="event-date">May 29, 2018</span>
+		  	</div>
+		  </div>
+
+		  <div class="card" style="width: 18rem;">
+		  	<img class="card-img-top" src="./source-files/two.jpg" alt="Card image cap" width="180" height="211">
+		  	<div class="card-body">
+		  		<h4>Title:</h4>
+		  		<p>Summary of details</p>
+		  		<span>May 29, 2018</span>
+		  	</div>
+		  </div>
+
+		  <div class="card" style="width: 18rem;">
+		  	<img class="card-img-top" src="./source-files/three.jpg" alt="Card image cap" width="180" height="211">
+		  	<div class="card-body">
+		  		<h4>Title:</h4>
+		  		<p>Summary of details</p>
+		  		<span>May 29, 2018</span>
+		  	</div>
+		  </div>
+		  
+		  <div class="card" style="width: 18rem;">
+		  	<img class="card-img-top" src="./source-files/four.jpg" alt="Card image cap" width="180" height="211">
+		  	<div class="card-body">
+		  		<h4>Title:</h4>
+		  		<p>Summary of details</p>
+		  		<span>May 29, 2018</span>
+		  	</div>
+		  </div>
+
+		  <div class="card" style="width: 18rem;">
+		  	<img class="card-img-top" src="./source-files/five.jpg" alt="Card image cap" width="180" height="211">
+		  	<div class="card-body">
+		  		<h4>Title:</h4>
+		  		<p>Summary of details</p>
+		  		<span>May 29, 2018</span>
+		  	</div>
+		  </div>
+
+		  <div class="card" style="width: 18rem;">
+		  	<img class="card-img-top" src="./source-files/six.jpg" alt="Card image cap" width="180" height="211">
+		  	<div class="card-body">
+		  		<h4>Title:</h4>
+		  		<p>Summary of details</p>
+		  		<span>May 29, 2018</span>
+		  	</div>
+		  </div>
+
+
+		  </div><!-- END -->
+
+		  <div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">...</div>
+		  <div class="tab-pane fade" id="nav-upcoming" role="tabpanel" aria-labelledby="nav-upcoming-tab">...</div>
+		</div>
+			
+		</div> <!-- event box-->
+	</section>
+
+
+	<!-- Media Section where videos can be inserted-->
+	<section id="mediaSection">
+				<div id="table-container">
+			<div id="tablecontainer-img">
+				
+			</div>
+				<table border="0">
+					<thead>
+						<tr> <!-- This is the upper content-->
+							<!--<th><h3>This Could Be A Blank Space</h3></th>
+							<th><h3>This Could Be A Blank Space</h3></th>
+							<th><h3>This Could Be A Blank Space</h3></th>-->	
+						</tr>
+					</thead>
+					<tbody>
+						<tr> <!-- This is the mid content-->
+							<td class="textbackground" class="table-midcontent" align="center"><h2>Lorem Ipsum</h2>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper bibendum suscipit. Curabitur justo dolor, porttitor at euismod at, pretium sed massa.</td>
+							<td class="table-midcontent" align="center" colspan="2"> <div class="emptybox"></div><!-- <iframe id="iframe-location" width="498" height="280" src="https://www.youtube.com/embed/18Q7MhkPNDA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> --></td>	
+							
+						</tr>
+						<tr> <!-- This is the lower content-->
+							<!--<td class="table-lowercontent" align="center"><h2>Lorem Ipsum</h2>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper bibendum suscipit. Curabitur justo dolor, porttitor at euismod at, pretium sed massa.</td>
+							<td class="table-lowercontent" align="center"><h2>Lorem Ipsum</h2>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper bibendum suscipit. Curabitur justo dolor, porttitor at euismod at, pretium sed massa.</td>-->
+							<td><div class="emptybox"></div></td>
+							<td class="textbackground" class="table-lowercontent" align="center"><h2>Lorem Ipsum</h2>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper bibendum suscipit. Curabitur justo dolor, porttitor at euismod at, pretium sed massa.</td> 
+						</tr>
+						
+					</tbody>
+				</table>
+		</div>
+
+		<div id="mediaWrapper">
+			<div id="mediabox1">
+				<!-- iframe width and height options: option 1 width="560" height="315" / option 2 width="498" height="280"-->
+				<iframe id="iframe-location" width="560" height="315" src="https://www.youtube.com/embed/sR1yk82FnN8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+				<!-- Note!: Backup Iframe - this one is the same with the iframe up there.-->
+				<!--<iframe id="iframe-location" width="560" height="315" src="https://www.youtube.com/embed/18Q7MhkPNDA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+
+				<!-- Uncomment this one if you want to use video files instead of embeding links to iframe-->
+				<!-- <video style="border: 1px solid black;"width="560" height="316" src="Black-Clover-33.mkv" type="video/mkv" controls></video> -->
+				<!--Note: change video src="" and type="video/" acording to the video file. if the file is example.mp4, put example.mp4 inside src="here" don't forget to put the video format after the name of video file like example".mp4" and don't forget too to put the format of video in type="video/format" after the "/" like this type="video/mp4"-->
+			</div>
+			<div id="mediabox2">
+			<h1>Primary Headline</h1>
+			<p align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper bibendum suscipit. Curabitur justo dolor, porttitor at euismod at, pretium sed massa. Sed at bibendum orci, et faucibus neque. Fusce varius, eros in volutpat convallis, eros purus fringilla felis, a fermentum nibh nisl luctus metus. Curabitur sapien mauris, vulputate tempor nibh vitae, ultrices dignissim tortor.</p>
+			</div>
+		</div>
+	</section>
+
+	<br><br><br>
+	<!--End of media section-->
+<hr>
+	
+	<div class="divBar"></div>
+	<!-- End of Events section-->
+
+	<!-- About Section where some information about the website will be putted-->
+	<section id="aboutSection">		
+	</section>
+	<!-- End of About Section-->
+
+	<!-- Footer Section for contacts -->
+	<!--<footer id="contactsFooter">
+		<ul>
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>Instagram</li>
+			<li>Gmail</li>
+		</ul>
+	</footer>-->
+	<!-- End of footer -->
+
+</body>
+</html>
